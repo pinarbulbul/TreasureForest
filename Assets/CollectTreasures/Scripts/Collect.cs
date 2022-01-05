@@ -9,7 +9,7 @@ public class Collect : MonoBehaviour
     public Text CollectedTreasuresText;
     public Text EndOfGameText;
     private int collectedTreasuresNumber = 0;
-    private int totalTreasuresNumber = 15;//30;
+    private int totalTreasuresNumber = 30;
     public PlayerWalk PlayerWalk;
     private void OnCollisionEnter(Collision collision)
     {
